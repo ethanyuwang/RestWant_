@@ -42,7 +42,7 @@ public class LikedRestaurantsActivity extends AppCompatActivity {
 //        String[] adapterData = new String[]{"Activity", "Service", "Content Provider", "Intent", "BroadcastReceiver", "ADT", "Sqlite3", "HttpClient",
 //                "DDMS", "Android Studio", "Fragment", "Loader", "Activity", "Service", "Content Provider", "Intent",
 //                "BroadcastReceiver", "ADT", "Sqlite3", "HttpClient", "Activity", "Service", "Content Provider", "Intent",
-//                "BroadcastReceiver", "ADT", "Sqlite3", "HttpClient"};
+//                "BroadcastReceiver", "ADT", "Sqlite3", "HttpClient"}; //
 //        mListView.setAdapter(new ArraySwipeAdapterSample<String>(this, R.layout.listview_item, R.id.position, adapterData));
 
         mAdapter = new ListViewAdapter(this);
