@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ethanwang.cs190i.cs.ucsb.edu.restwant.SwipeActivity">
+    <item
+        android:id="@+id/swipe_activity"
+        android:orderInCategory="100"
+        android:title="@string/action_swipe"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/liked_activity"
+        android:orderInCategory="100"
+        android:title="@string/action_liked"
+        app:showAsAction="always" />
+
+</menu>
